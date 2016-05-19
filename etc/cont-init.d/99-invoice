@@ -1,0 +1,6 @@
+#!/bin/bash
+
+INVOICES_DIR=/var/www/invoices
+
+mkdir -p "${INVOICES_DIR}"
+chown www-data: "${INVOICES_DIR}"

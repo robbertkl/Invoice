@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-0": {
+            "Administration\\": "classes/"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "robbertkl/deployhook": "~1.0",
+        "robbertkl/simplepdf": "~1.0",
+        "endroid/qrcode": "^1.6"
+    }
+}
