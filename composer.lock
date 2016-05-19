@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5d46612dea254fb40a0f8811d28ece5b",
-    "content-hash": "a37687c6af3a432988ce065fd941f0e6",
+    "hash": "96494484463f2c65efb63e1864df0b0c",
+    "content-hash": "0f92df3a8796cbf16305ab346253c380",
     "packages": [
         {
             "name": "endroid/qrcode",
-            "version": "1.6.4",
+            "version": "1.6.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/endroid/QrCode.git",
-                "reference": "76ea6d7f5e545732094d5baf94de8aceae32c12c"
+                "reference": "d1561118846d92f1c8e107a52c09512d764cbeaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/endroid/QrCode/zipball/76ea6d7f5e545732094d5baf94de8aceae32c12c",
-                "reference": "76ea6d7f5e545732094d5baf94de8aceae32c12c",
+                "url": "https://api.github.com/repos/endroid/QrCode/zipball/d1561118846d92f1c8e107a52c09512d764cbeaf",
+                "reference": "d1561118846d92f1c8e107a52c09512d764cbeaf",
                 "shasum": ""
             },
             "require": {
@@ -55,117 +55,20 @@
                 "qr",
                 "qrcode"
             ],
-            "time": "2016-04-08 21:44:39"
-        },
-        {
-            "name": "m6web/firewall",
-            "version": "v0.3.0",
-            "target-dir": "M6Web/Component/Firewall",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/M6Web/Firewall.git",
-                "reference": "9e177e3f6a33921f057b089ada8774d2868da90b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/M6Web/Firewall/zipball/9e177e3f6a33921f057b089ada8774d2868da90b",
-                "reference": "9e177e3f6a33921f057b089ada8774d2868da90b",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "atoum/atoum": "master-dev"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "M6Web\\Component\\Firewall": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "M6Web",
-                    "email": "opensource@m6web.fr",
-                    "homepage": "http://tech.m6web.fr/"
-                }
-            ],
-            "description": "Library providing IP filtering features",
-            "keywords": [
-                "IP",
-                "filtering",
-                "firewall"
-            ],
-            "time": "2014-01-15 15:07:20"
-        },
-        {
-            "name": "robbertkl/deployhook",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/robbertkl/DeployHook.git",
-                "reference": "159dca254bb7a9b781177e4cdbd32e4a0fb01287"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/robbertkl/DeployHook/zipball/159dca254bb7a9b781177e4cdbd32e4a0fb01287",
-                "reference": "159dca254bb7a9b781177e4cdbd32e4a0fb01287",
-                "shasum": ""
-            },
-            "require": {
-                "m6web/firewall": "~0.3",
-                "php": ">=5.4"
-            },
-            "require-dev": {
-                "apigen/apigen": "2.*",
-                "squizlabs/php_codesniffer": "1.*"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "DeployHook\\": "classes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Robbert Klarenbeek",
-                    "email": "robbertkl@renbeek.nl"
-                }
-            ],
-            "description": "Basic git deployment script meant for service hooks",
-            "homepage": "https://github.com/robbertkl/DeployHook",
-            "keywords": [
-                "deploy",
-                "git"
-            ],
-            "time": "2014-06-08 14:32:16"
+            "time": "2016-04-16 22:09:48"
         },
         {
             "name": "robbertkl/simplepdf",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/robbertkl/simplepdf.git",
-                "reference": "71e3cff17dc4fdb84b92df89e23a25d9c1ba533a"
+                "reference": "f19cea8d4e52fe76d4fa447b411514dee688adbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robbertkl/simplepdf/zipball/71e3cff17dc4fdb84b92df89e23a25d9c1ba533a",
-                "reference": "71e3cff17dc4fdb84b92df89e23a25d9c1ba533a",
+                "url": "https://api.github.com/repos/robbertkl/simplepdf/zipball/f19cea8d4e52fe76d4fa447b411514dee688adbc",
+                "reference": "f19cea8d4e52fe76d4fa447b411514dee688adbc",
                 "shasum": ""
             },
             "require": {
@@ -202,88 +105,32 @@
             "keywords": [
                 "pdf"
             ],
-            "time": "2013-12-08 23:40:31"
-        },
-        {
-            "name": "zendframework/zend-hydrator",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zendframework/zend-hydrator.git",
-                "reference": "f3ed8b833355140350bbed98d8a7b8b66875903f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-hydrator/zipball/f3ed8b833355140350bbed98d8a7b8b66875903f",
-                "reference": "f3ed8b833355140350bbed98d8a7b8b66875903f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5",
-                "zendframework/zend-stdlib": "^2.5.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "^2.0@dev",
-                "zendframework/zend-eventmanager": "^2.5.1",
-                "zendframework/zend-filter": "^2.5.1",
-                "zendframework/zend-inputfilter": "^2.5.1",
-                "zendframework/zend-serializer": "^2.5.1",
-                "zendframework/zend-servicemanager": "^2.5.1"
-            },
-            "suggest": {
-                "zendframework/zend-eventmanager": "^2.5.1, to support aggregate hydrator usage",
-                "zendframework/zend-filter": "^2.5.1, to support naming strategy hydrator usage",
-                "zendframework/zend-serializer": "^2.5.1, to use the SerializableStrategy",
-                "zendframework/zend-servicemanager": "^2.5.1, to support hydrator plugin manager usage"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev",
-                    "dev-develop": "1.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Zend\\Hydrator\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "homepage": "https://github.com/zendframework/zend-hydrator",
-            "keywords": [
-                "hydrator",
-                "zf2"
-            ],
-            "time": "2015-09-17 14:06:43"
+            "time": "2016-05-19 09:13:23"
         },
         {
             "name": "zendframework/zend-memory",
-            "version": "2.5.1",
+            "version": "2.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-memory.git",
-                "reference": "ea25879c367ce2c13568640572fb79e882f5fc97"
+                "reference": "bbf8b9509660b2a97f2d6ccfefabffac3cca6a5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-memory/zipball/ea25879c367ce2c13568640572fb79e882f5fc97",
-                "reference": "ea25879c367ce2c13568640572fb79e882f5fc97",
+                "url": "https://api.github.com/repos/zendframework/zend-memory/zipball/bbf8b9509660b2a97f2d6ccfefabffac3cca6a5c",
+                "reference": "bbf8b9509660b2a97f2d6ccfefabffac3cca6a5c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.23"
+                "php": "^5.5 || ^7.0"
             },
             "require-dev": {
-                "fabpot/php-cs-fixer": "1.7.*",
-                "phpunit/phpunit": "~4.0",
-                "zendframework/zend-cache": "~2.5"
+                "phpunit/phpunit": "^4.8",
+                "squizlabs/php_codesniffer": "^2.3.1",
+                "zendframework/zend-cache": "^2.7"
             },
             "suggest": {
-                "zendframework/zend-cache": "To support swap the memory objects"
+                "zendframework/zend-cache": "To support swapping memory objects into and out of non-memory cache storage"
             },
             "type": "library",
             "extra": {
@@ -306,48 +153,35 @@
                 "memory",
                 "zf2"
             ],
-            "time": "2015-06-03 15:32:02"
+            "time": "2016-05-11 14:49:42"
         },
         {
             "name": "zendframework/zend-stdlib",
-            "version": "2.7.3",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-stdlib.git",
-                "reference": "8ac0c77ff567fcf49b58689ee3bfa7595be102bc"
+                "reference": "8bafa58574204bdff03c275d1d618aaa601588ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/8ac0c77ff567fcf49b58689ee3bfa7595be102bc",
-                "reference": "8ac0c77ff567fcf49b58689ee3bfa7595be102bc",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/8bafa58574204bdff03c275d1d618aaa601588ae",
+                "reference": "8bafa58574204bdff03c275d1d618aaa601588ae",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5",
-                "zendframework/zend-hydrator": "~1.0"
+                "php": "^5.5 || ^7.0"
             },
             "require-dev": {
                 "athletic/athletic": "~0.1",
                 "fabpot/php-cs-fixer": "1.7.*",
-                "phpunit/phpunit": "~4.0",
-                "zendframework/zend-config": "~2.5",
-                "zendframework/zend-eventmanager": "~2.5",
-                "zendframework/zend-filter": "~2.5",
-                "zendframework/zend-inputfilter": "~2.5",
-                "zendframework/zend-serializer": "~2.5",
-                "zendframework/zend-servicemanager": "~2.5"
-            },
-            "suggest": {
-                "zendframework/zend-eventmanager": "To support aggregate hydrator usage",
-                "zendframework/zend-filter": "To support naming strategy hydrator usage",
-                "zendframework/zend-serializer": "Zend\\Serializer component",
-                "zendframework/zend-servicemanager": "To support hydrator plugin manager usage"
+                "phpunit/phpunit": "~4.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev",
-                    "dev-develop": "2.8-dev"
+                    "dev-master": "3.0-dev",
+                    "dev-develop": "3.1-dev"
                 }
             },
             "autoload": {
@@ -364,7 +198,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2015-09-25 04:06:33"
+            "time": "2016-04-12 21:19:36"
         },
         {
             "name": "zendframework/zendpdf",
