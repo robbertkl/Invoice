@@ -1,7 +1,5 @@
 # Invoice
 
-[![](https://badge.imagelayers.io/robbertkl/invoice:latest.svg)](https://imagelayers.io/?images=robbertkl/invoice:latest)
-
 Invoice generator.
 
 ## Usage
