@@ -28,18 +28,18 @@ class Invoice
     public static $defaultKvkNumber = '';
     public static $defaultVatNumber = '';
     public static $defaultBankName = '';
-    public static $defaultAccountNumber = '';
-    public static $defaultBic = '';
     public static $defaultIban = '';
+    public static $defaultBic = '';
+    public static $defaultNotification = '';
 
     public $companyName;
     public $companyInfo;
     public $kvkNumber;
     public $vatNumber;
     public $bankName;
-    public $accountNumber;
-    public $bic;
     public $iban;
+    public $bic;
+    public $notification;
 
     protected $invoiceNumber;
     protected $invoiceDate;
@@ -58,9 +58,9 @@ class Invoice
         $this->kvkNumber = self::$defaultKvkNumber;
         $this->vatNumber = self::$defaultVatNumber;
         $this->bankName = self::$defaultBankName;
-        $this->accountNumber = self::$defaultAccountNumber;
-        $this->bic = self::$defaultBic;
         $this->iban = self::$defaultIban;
+        $this->bic = self::$defaultBic;
+        $this->notification = self::$defaultNotification;
     }
 
     public function addItem($description, $price)
@@ -88,6 +88,11 @@ class Invoice
         $y = $this->insertInfoTable($page, $y);
         $y += 2 * $page->getLineHeight();
         $y = $this->insertItemTable($page, $y);
+        if (!empty(trim($this->notification))) {
+            $y += 2 * $page->getLineHeight();
+            $y = $this->insertNotification($page, $y);
+        }
+
         $this->insertFooter($page);
 
         $tempFile = tempnam('/tmp', 'qr') . '.png';
@@ -168,9 +173,8 @@ class Invoice
                 'BTW nummer' => $this->vatNumber,
             ],
             [
-                $this->bankName => $this->accountNumber,
-                'BIC' => $this->bic,
                 'IBAN' => $this->iban,
+                'BIC' => $this->bic,
             ],
         ];
 
@@ -294,6 +298,13 @@ class Invoice
 
         $page->setLineSpacing($this->lineSpacing);
         return $y;
+    }
+
+    protected function insertNotification(Page $page, $y)
+    {
+        $notification = trim($this->notification, PHP_EOL);
+        $page->drawTextBlock($notification, $y);
+        return $y + (substr_count($notification, PHP_EOL) + 1) * $page->getLineHeight();
     }
 
     protected function insertFooter(Page $page)

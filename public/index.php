@@ -9,9 +9,9 @@ Invoice::$defaultCompanyInfo   = getenv('INVOICE_COMPANY_INFO');
 Invoice::$defaultKvkNumber     = getenv('INVOICE_COMPANY_KVK');
 Invoice::$defaultVatNumber     = getenv('INVOICE_COMPANY_VAT');
 Invoice::$defaultBankName      = getenv('INVOICE_COMPANY_BANK');
-Invoice::$defaultAccountNumber = getenv('INVOICE_COMPANY_ACCOUNT');
-Invoice::$defaultBic           = getenv('INVOICE_COMPANY_BIC');
 Invoice::$defaultIban          = getenv('INVOICE_COMPANY_IBAN');
+Invoice::$defaultBic           = getenv('INVOICE_COMPANY_BIC');
+Invoice::$defaultNotification  = getenv('INVOICE_NOTIFICATION');
 
 $defaultRecipient              = getenv('INVOICE_DEFAULT_RECIPIENT');
 
